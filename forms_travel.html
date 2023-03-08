@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel and tourism</title>
+</head>
+
+<body>
+    <header>
+        <h1>Faizan Travel Agency</h1>
+        <ul>
+            <li>about</li>
+            <li>contact</li>
+            <li>help</li>
+        </ul>
+    </header>
+    <main>
+        <div>
+            <a href="http://127.0.0.1:5500/forms_travel.html" target="_blank"> <img src="travel.jpg" width=555
+                    float=right alt="travel image"></a>
+        </div>
+        <div>
+            <h3>Enter your details</h3>
+            <form action="travel.php">
+                <input type="text" placeholder="enter your name">
+                <input type="text" placeholder="enter your phone number">
+                <label for="return">
+                    <input type="checkbox" id=return name=return>Return ticket
+                </label>
+                <br><br>
+                <input type="text" placeholder="From">
+                <input type="text" placeholder="to">
+                <br><br>
+                <label for="start">Start date:</label>
+
+                <input type="date" id="start" name="trip-start" value="2023-03-05">
+
+                <label for="end">End date</label>
+                <input type="date" id=end name="end date" value=2023-03-05>
+               
+                <select name="plane" id="select plane">
+                    <option value="no value">select plane</option>
+                    <option value="Indigo">Indigo</option>
+                    <option value="Spicejet">Spicejet</option>
+                    <option value="Air Asia">Air Asia</option>
+                </select>
+                <br><br>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" class="book">book</a>
+
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
